@@ -155,11 +155,58 @@ footer {
 }
 
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  border-radius: 10px;
+/* Responsive Design*/
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .nav-links a,
+    .login-btn {
+        width: 100%;
+        text-align: left;
+    }
+
+    .logo-link {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .landing {
+        height: auto;
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .left-image img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .contact-form,
+    .about-content {
+        width: 100%;
+    }
 }
+
 
 
     </style>
